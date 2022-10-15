@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Configuration>
+    <DatabaseConfig>
+      <Server Value="your_server"></Server>
+      <Database Value="your_database"></Database>
+      <UserID Value="your_userid"></UserID>
+      <Password Value="your_password"></Password>
+    </DatabaseConfig>
+    <ExceptionConfig>
+      <ShowExceptionsInMessageBox Value="false"></ShowExceptionsInMessageBox>
+      <ShowStartupExceptionsInMessageBox Value="false"></ShowStartupExceptionsInMessageBox>
+    </ExceptionConfig>
+    <SMSConfig>
+      <Country Value="91"></Country>
+      <Sender Value="your_name_to_show_6_length"></Sender>
+      <AuthKey Value="your_authentication_key"></AuthKey>
+    </SMSConfig>
+    <EmailConfig>
+      <FromEmailID Value = "from_email_id"></FromEmailID>
+      <EmailUserName Value = "you_username"></EmailUserName>
+      <EmailPassword Value = "your_password"></EmailPassword>
+      <EmailDisplayName Value = "name_to_display"></EmailDisplayName>
+      <SMTPHost Value = "smtp_server"></SMTPHost>
+      <SMTPPort Value = "smtp_port"></SMTPPort>
+    </EmailConfig>
+    <Strings>
+      <WelcomeMessage Value="your_welcome_message"></WelcomeMessage>
+    </Strings>
+    <FolderConfigs>
+      <ImageCopyFolder Value="drive_to_copy"></ImageCopyFolder>
+    </FolderConfigs>
+  </Configuration>
+</Root>
